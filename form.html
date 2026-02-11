@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ComputerScience</title>
+    <style>
+        body {
+            background-color: #000000;
+            font-family: 'Tahoma', sans-serif;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #d21c92;
+            text-align: center;
+        }
+
+
+        form {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+        form {
+            width: 240px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        select,
+        textarea {
+            text-align: center;
+            width: 300%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #0066cc;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+        form-container {}
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Computer Science</h1>
+        <p>กรอกข้อมูลด้านล่างเพื่อรับข่าวสารและบทความเกี่ยวกับแมว</p>
+
+        <form>
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="cat-type">สายพันธุ์แมวที่ชอบ:</label>
+            <select id="cat-type" name="cat-type">
+                <option value="persian">เปอร์เซีย</option>
+                <option value="scottish">สก็อตติช โฟลด์</option>
+                <option value="american">อเมริกัน ช็อตแฮร์</option>
+            </select>
+            <label for="comment">ความเห็นเพิ่มเติม:</label>
+            <textarea id="comment" name="comment" rows="4"></textarea>
+        </form>
+        <a href="index.html">🔙 กลับหน้าหลัก</a>
+    </div>
+</body>
+
+</html>
